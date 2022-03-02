@@ -1,0 +1,40 @@
+.pagebody{
+    width: 80%;
+    margin:0px auto 50px; 
+}
+.newsin_title{
+    position: relative;
+    margin: 0 auto;
+    color:#a2751e;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+.newsin_time{
+    position: relative;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+}
+.newsin_dec {
+    width: 661px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0 auto;
+}
+.webp .newsin_dec {background-image: url(../imgp/title_dec.webp);}
+.no-webp .newsin_dec {background-image: url(../img/title_dec.png);}
+
+.pagebody p{
+    color: #fff;
+    line-height: 30px;
+    margin: 10px auto;
+}
+.pagebody a{
+    color: #a2751e;
+}

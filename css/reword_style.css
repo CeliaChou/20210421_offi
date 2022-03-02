@@ -1,0 +1,170 @@
+.pagehead p{
+    color: #fff;
+    text-align: center;
+    margin: 5px auto;
+}
+.gift-searchbar{
+    margin: 10px auto;
+}
+.search-date{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.search-date div{
+    margin: 0 10px;
+}
+.select-box select{
+    width: 150px;
+    background-color: #191919;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.search-bar input{
+    background-color: #191919;
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    height: 24px;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search-btn {
+    width: 33px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0 auto;
+}
+.webp .search-btn {background-image: url(../imgp/search-btn.webp);}
+.no-webp .search-btn {background-image: url(../img/search-btn.png);}
+.newsin_dec {
+    width: 661px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0 auto;
+}
+.webp .newsin_dec {background-image: url(../imgp/title_dec.webp);}
+.no-webp .newsin_dec {background-image: url(../img/title_dec.png);}
+
+.pagebody{
+    width: 60%;
+    margin: 0 auto;
+}
+.tab_content{
+    position: relative;
+}
+.tab_content ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 44px;
+    border-bottom: 1px solid #fdb62f;
+}
+.tab_content ul li a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.tab_content ul li a:hover{
+    color: #9b7c33;
+}
+.arrow-down {
+    width: 82px;
+    height: 165px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin:30px auto;
+}
+.webp .arrow-down {background-image: url(../imgp/arrow_down.webp);}
+.no-webp .arrow-down {background-image: url(../img/arrow_down.png);}
+h2{
+    margin: 15px auto;
+}
+.sign-box{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.signin{
+    display: none;
+}
+.sign-box select{
+    width: 190px;
+    margin:10px 10px;
+}
+.sign-btn{
+    width: 100px;
+    height: 30px;
+    background-color: #9b7c33;
+    font-size: 22px;
+    font-weight: bold;
+    color: #191919;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    filter: brightness(130%);
+}
+.reword_content{
+    display: none;
+}
+.reword-table table{
+    width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+}
+.reword-table thead tr th{
+    background-color: #9b7c33;
+    font-size:24px ;
+    font-weight: normal;
+    padding:10px 30px 10px 30px;
+}
+.reword-table tbody tr th{
+    background-color: #bb9c52;
+    font-size:18px ;
+    font-weight: normal;
+    padding:10px 30px 10px 30px;
+    line-height: 30px;
+}
+.table-btn{
+    font-size: 24px;
+    font-weight: bold;
+    width: 105px;
+    height: 45px;
+    color: #191919;
+    background-image: linear-gradient(to bottom, #fef9f0, #dad3bf, #7f7b6e);
+    border: none;
+    cursor: pointer;
+}
+.table-btn2{
+    font-size: 24px;
+    font-weight: bold;
+    width: 105px;
+    height: 45px;
+    color: #fff;
+    background-color:#636363;
+    border: none;
+}

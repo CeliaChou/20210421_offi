@@ -1,0 +1,30 @@
+.part0_tabs li{
+    cursor: pointer;
+}
+.tab_content{
+    width: 86%;
+    position: relative;
+    margin: 0 auto 25px;
+}
+.tab_content ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 44px;
+    border-bottom: 1px solid #9b7c33;
+}
+.tab_content ul li a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+.tab_content ul li a  :nth-child(1) {
+    color: #9b7c33;
+    margin-right:15px ;
+}

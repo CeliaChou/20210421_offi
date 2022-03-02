@@ -1,0 +1,95 @@
+.pagebody{
+    width: 80%;
+    margin:0px auto 50px; 
+}
+.part0_tabs{
+    border-bottom: 1px solid #9b7c33;
+}
+.part0_tabs li{
+    cursor: pointer;
+}
+.download-list-area{
+    color: #fff;
+}
+/* ---------tab1----------- */
+.download_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.download_list li{
+    width: 150px;
+    height: 50px;
+    margin: 5px 10px;
+    text-align: center;
+    background-color: #9b7c33;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.download_list li:hover,.download_list li:hover a{
+    background-color: #414141;
+    color: #fff;
+}
+.download_list a{
+    color: #000;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 48px;
+    transition: all 0.5s;
+}
+.down-innerbox{
+    margin: 20px auto;
+    line-height: 30px;
+    border-bottom: 1px solid #9b7c33;
+    padding-bottom: 10px;
+}
+.down-linkstyle{
+    color: #9b7c33;
+}
+.down-h5style{
+    text-align: center;
+    margin: 10px auto;
+    color: #9b7c33;
+}
+.Equipped-block{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.Equipped-block tr{
+    height: 25px;
+}
+.Equipped-block thead tr{
+    height: 40px;
+    background-color: #9b7c33;
+}
+/* -----------tab2----------- */
+.pic_group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 800px;
+}
+.pic_group img{
+    width: 250px;
+    overflow: hidden;
+}
+.down_pic_link{
+    margin: 5px 5px;
+    position: relative;
+	width: 250px;
+	display: block;
+	text-decoration: none;
+	transition: 0.3s linear;
+    vertical-align: bottom;
+}
+h6{
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+}
